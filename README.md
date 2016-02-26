@@ -1,6 +1,6 @@
 # virusOnProcessing
 
-<img src="./Screenshot/app.jpg" width="450">
+<img src="./Screenshot/app.png" width="450">
 
 *  This is my first processing project for my friend.
 *  Simulation of spreading virus in real world.
