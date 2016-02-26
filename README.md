@@ -7,4 +7,5 @@
 * 初めてProcessingを触ってから３時間くらいで文法及び仕様の習得含めて作ることができました。Processingすげ〜！
 
 
-## by ryoppippi
+---
+Powerd by @ryoppippi
