@@ -34,6 +34,9 @@ void draw(){
         virusX = mouseX;
         virusY = mouseY;
         ellipse(virusX,virusY,20,20);
+        noLoop();
+    }
+    if(scene == 3){
         frameRate(5);
         for(int i = 0;i < numberCircle; i++){
             if(dist(virusX,virusY,centerX[i],centerY[i]) <= virusDistance){
@@ -44,9 +47,11 @@ void draw(){
                 virusCircle[i] = true;
             }
         }
+        fill(255,0,255);
+        ellipse(virusX,virusY,20,20);
         noLoop();
     }
-    if(scene >= 3){
+    if(scene >= 4){
         int numberYarareta = 0;
         int[] yarareta = {};
         for(int i = 0;i < numberCircle; i++){
@@ -57,7 +62,6 @@ void draw(){
                         fill(#FFFF00);
                         ellipse(centerX[j],centerY[j],radius,radius);
                         line(centerX[i],centerY[i],centerX[j],centerY[j]);
-                        noLoop();
                         numberYarareta++;
                         yarareta = (int[])append(yarareta,j);
                     }
@@ -67,6 +71,8 @@ void draw(){
         for(int k = 0;k < numberYarareta; k++){
             virusCircle[yarareta[k]] = true;
         }
+        fill(255,0,255);
+        ellipse(virusX,virusY,20,20);
         noLoop();
     }
 }
