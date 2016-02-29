@@ -2,7 +2,7 @@
 
 <img src="./Screenshot/app.png" width="450">
 
-*  This is my first processing project for my friend.
+*  This is my first processing project.
 *  Simulation of spreading virus in real world.
 *  White circles represent people.
 *  <a href="https://dl.dropboxusercontent.com/u/58534474/hikari/index.html" target="_blank">Here is the demo.</a>
